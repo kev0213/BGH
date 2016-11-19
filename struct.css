@@ -1,10 +1,34 @@
 @-webkit-keyframes fadeOut {
   from {    opacity: 1;  }
-  to {    opacity: 0;  }
+  to {    opacity: 0.8;  }
 }
 @-webkit-keyframes back {
-  from {    opacity: 0;  }
+  from {    opacity: 0.8;  }
   to {    opacity: 1;  }
+}
+ @-webkit-keyframes pulse { from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  
+  to {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+}
+a:link {
+	text-decoration: none;color:black;}    /* 設定尚未點閱過的連結樣式 */
+a:visited {
+	text-decoration: none;color:black;} /* 設定過去曾經閱過的連結 */
+a:hover {
+	
+	text-decoration: none;
+	color: #666;}   /* 設定滑鼠游標指在連結位置上的樣式 */
+a:active {
+	text-decoration: none;color:black;}  
+a{
+	
 }
 .byebye {/*滑鼠移出時圖片淡入*/
   -webkit-animation-name: back;
@@ -13,29 +37,146 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.byebye:hover {/*滑鼠移至圖片時淡出*/
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
+
+#logo{
+	position: absolute;
+	margin-top: -80px;
+	margin-left: 30px;
+	}
+#logoframe ul{
+	list-style-type:none;
+	margin-left:245px;}
+	 ul{
+	list-style-type:none;}
+ #logoframe li{
+	LINE-HEIGHT:75px;
+	font-size: 24px;
+	margin-left:43px;
+	float: left;
+	font-family: "Microsoft JhengHei UI", "Adobe 明體 Std L", "Adobe 黑体 Std R";
+	font-weight:bold;
+	}
+ li:hover{
+	   -webkit-animation-name: pulse;
+  animation-name: pulse;
   animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-}
-
-
+		}
+		#ser{
+			
+			margin-top:17px;
+			margin-right:16px;
+	float: right;
+			}
+				#ser:hover{
+		  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;		
+		}
+#logoframe{
+	background-color:#ffec50;
+	margin-top: 90px;
+	width:1200px;
+	margin-left:40px;
+	border-radius: 3px;
+	height:70px;
+	}
+#main
+	{
+	height: 400px;
+	width: 1200px;
+	position: relative;
+	left: 50%;
+	margin-top: 15px;
+	margin-left: -600px;
+	background-image: url(img/main.jpg);		
+		}
 .title{
+	margin-top: 40px;
 	font-family: "Square721 BT";
 	text-align: center;
-	font-size: 86px;
+	font-size: 68px;
 	color: #42aefa;
+	}
+.titlebar{		
+	margin-top: 15px;
+	width:216px;
+	height:14px;
+	background-color: #42aefa;
+	position: relative;
+	left: 50%;
+	margin-left: -108px;
+	margin-bottom: 15px;}
+#item {
+	margin-left: 240px;}
+#item table{
+	border-spacing:13px;}
+#item td:hover {
+	  -webkit-animation-name: pulse;
+	  animation-name: pulse;
+	  animation-duration: 0.5s;
+	  -webkit-animation-fill-mode: both;
+	  animation-fill-mode: both;}
+#footer	
+{
+	background-color:#ffec50;
+	height: 180px;
+	width: 1200px;
+	padding-top: 38px;
+	
+	position: relative;
+	left: 50%;
+	margin-top: 15px;
+	margin-left: -600px;
+}
+#footer  table{
+	
+	
+	margin-left: 200px;}
+
+#footer  tr{
+	float: left;
+	font-family: "Microsoft JhengHei UI", "Adobe 明體 Std L", "Adobe 黑体 Std R";
+	font-weight: bold;
+	text-align: left;
+	color:#353535;
+	font-size: 20px;
+	}
+#footer	tr:nth-child(1)
+{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	}
+.content
+{
+	color:#363535;
+	
+	font-size: 20px;
 	
 	}
 body{
-	
-	background:white;}
+	background-color: white;
+}
 #max{
 	width: 1280px;
-	height: 11036px;
 	position: relative;
 	left: 50%;
+	margin-top: 0px;
 	margin-left: -640px;
-	background:white;}
+	z-index:1;}
+	
+#test{	
+	position: absolute;
+	z-index:5;
+	left: 50%;
+	margin-top: -92px;
+	margin-left: -640px;;
+	opacity:0.4;	
+		
+		}
+	
+

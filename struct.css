@@ -48,7 +48,7 @@ a{
 	margin-left:245px;}
 	 ul{
 	list-style-type:none;}
- #logoframe li{
+#logoframe li{
 	LINE-HEIGHT:75px;
 	font-size: 24px;
 	margin-left:43px;
@@ -56,20 +56,19 @@ a{
 	font-family: "Microsoft JhengHei UI", "Adobe 明體 Std L", "Adobe 黑体 Std R";
 	font-weight:bold;
 	}
- li:hover{
+li:hover{
 	   -webkit-animation-name: pulse;
   animation-name: pulse;
   animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 		}
-		#ser{
-			
-			margin-top:17px;
-			margin-right:16px;
+#ser{
+	margin-top:17px;
+	margin-right:16px;
 	float: right;
 			}
-				#ser:hover{
+#ser:hover{
 		  -webkit-animation-name: pulse;
   animation-name: pulse;
   animation-duration: 0.5s;
@@ -92,15 +91,13 @@ a{
 	left: 50%;
 	margin-top: 15px;
 	margin-left: -600px;
-	background-image: url(img/main.jpg);		
-		}
+	background-image: url(img/main.jpg);			}
 .title{
 	margin-top: 40px;
 	font-family: "Square721 BT";
 	text-align: center;
 	font-size: 68px;
-	color: #42aefa;
-	}
+	color: #42aefa;	}
 .titlebar{		
 	margin-top: 15px;
 	width:216px;
@@ -126,17 +123,13 @@ a{
 	height: 180px;
 	width: 1200px;
 	padding-top: 38px;
-	
 	position: relative;
 	left: 50%;
 	margin-top: 15px;
 	margin-left: -600px;
 }
 #footer  table{
-	
-	
 	margin-left: 200px;}
-
 #footer  tr{
 	float: left;
 	font-family: "Microsoft JhengHei UI", "Adobe 明體 Std L", "Adobe 黑体 Std R";
@@ -146,21 +139,16 @@ a{
 	font-size: 20px;
 	}
 #footer	tr:nth-child(1)
-{
+{	color:black;
 	font-size: 24px;
 	font-weight: bold;
 	text-align: left;
 	}
 .content
-{
-	color:#363535;
-	
+{	color:#363535;
 	font-size: 20px;
-	
 	}
-body{
-	background-color: white;
-}
+body{	background-color: white;}
 #max{
 	width: 1280px;
 	position: relative;
@@ -168,15 +156,12 @@ body{
 	margin-top: 0px;
 	margin-left: -640px;
 	z-index:1;}
-	
 #test{	
 	position: absolute;
 	z-index:5;
 	left: 50%;
 	margin-top: -92px;
 	margin-left: -640px;;
-	opacity:0.4;	
-		
-		}
+	opacity:0.4;		}
 	
 
